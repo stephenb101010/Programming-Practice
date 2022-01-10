@@ -3,6 +3,7 @@ key = "UU"
 key_words = []
 with open("sowpods.txt") as file:
     for line in file:
+        line = line.replace("\n", "")
         words.append(line)
 for word in words:
     if word.find(key) != -1:

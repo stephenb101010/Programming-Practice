@@ -5,6 +5,6 @@ with open("sowpods.txt") as file:
         line = line.replace("\n", "")
         words.append(line)
 for word in words:
-    if (word.find("Q") != -1) and (word.find("U") == -1):
+    if (word.find("A") == -1) and (word.find("E") == -1) and (len(word) >= 15):
         key_words.append(word)
 print(key_words)
