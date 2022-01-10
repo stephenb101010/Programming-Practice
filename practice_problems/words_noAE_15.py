@@ -1,10 +1,7 @@
 words = []
-key_words = []
 with open("sowpods.txt") as file:
     for line in file:
         line = line.replace("\n", "")
-        words.append(line)
-for word in words:
-    if (word.find("A") == -1) and (word.find("E") == -1) and (len(word) >= 15):
-        key_words.append(word)
-print(key_words)
+        if (line.find("A") == -1) and (line.find("E") == -1) and (len(line) >= 15):
+            words.append(line)
+print(words)

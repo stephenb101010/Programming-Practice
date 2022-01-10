@@ -1,7 +1,7 @@
-words = []
 with open("sowpods.txt") as file:
+    words = []
     for line in file:
         line = line.replace("\n", "")
-        if (line.find("X") != -1) and (line.find("Y") != -1) and (line.find("Z") != -1):
+        if (line.endswith("GHTLY") == True):
             words.append(line)
 print(words)
