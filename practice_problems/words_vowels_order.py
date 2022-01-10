@@ -5,11 +5,11 @@ with open("sowpods.txt") as file:
         line = line.replace("\n", "")
         if (line.find("A") != -1) and (line.find("E") != -1) and (line.find("I") != -1) and (line.find("O") != -1) and (line.find("U") != -1):
             words.append(line)
-    #TODO: Find way to find additional vowels and make sure they are all in order
+    #Check to make sure each vowel only appears once
     for word in words:
-        if word.index("A") < word.index("E"):
-            if word.index("E") < word.index("I"):
-                if word.index("I") < word.index("O"):
-                    if word.index("O") < word.index("U"):
+        if (word.index("A") < word.index("E")) and (word.count("A") == 1) and (word.count("E") == 1):
+#            if word.index("E") < word.index("I"):
+#                if word.index("I") < word.index("O"):
+#                    if word.index("O") < word.index("U"):
                         final_list.append(word)
     print(final_list)
