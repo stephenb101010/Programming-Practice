@@ -36,8 +36,8 @@ https://www.dropbox.com/s/k6xcq55tqanbdmz/countries.txt?dl=0
 
 For loops and if conditions
     . What are all of the countries that have “United” in the name? COMPLETED
-    . What countries both begin and end with a vowel?
-    . What country names are > 50% vowels?
+    . What countries both begin and end with a vowel? COMPLETED
+    . What country names are > 50% vowels? 
 
 
 Setting up storage to use during a for loop, including counters and arrays
