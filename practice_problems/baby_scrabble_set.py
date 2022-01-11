@@ -9,5 +9,5 @@ with open("sowpods.txt") as words, open("baby_names_2020_short.txt") as names:
         name = name.strip("\n") #This works
         upper_name = name.upper() #This works
         names_set.add(upper_name) #This works
-matches = reversed_words.intersection_update(names_set)
-print(matches)
+reversed_words.intersection_update(names_set)
+print(reversed_words)
