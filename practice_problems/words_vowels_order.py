@@ -1,11 +1,10 @@
+import re
+
 with open("sowpods.txt") as file:
     words = []
-    vowels = "AEIOU" #should this be a list?
     for line in file:
         line = line.strip("\n")
-        #check each line that there is only one vowel
-        #need temp to hold line while the loop runs?
-        for letter in vowels:
-            if line.count(letter) == 1:
-                words.append(line)
-print(words)
+        if re.search("[^aeiou]*a[^aeiou]*e[^aeiou]*i[^aeiou]*o[^aeiou]*u[^aeiou]*", line) != None:
+        #This doesn't work here. In terminal it almost does.
+            words.append(line)
+    print(words)
