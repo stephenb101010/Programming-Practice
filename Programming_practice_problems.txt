@@ -24,7 +24,7 @@ Setting up storage to use during a for loop, including counters and arrays
     . What is the longest word that contains no vowels? COMPLETED
     . Which of the letters Q, X, and Z is the least common? COMPLETED
     . What is the longest palindrome? COMPLETED
-    . What are all of the letters that never appear consecutively in an English word? For example, we know that “U” isn’t an answer, because of the word VACUUM, and we know that “A” isn’t an answer, because of “AARDVARK”, but which letters never appear consecutively?
+    . What are all of the letters that never appear consecutively in an English word? For example, we know that “U” isn’t an answer, because of the word VACUUM, and we know that “A” isn’t an answer, because of “AARDVARK”, but which letters never appear consecutively? WIP
 
 
 Countries
@@ -35,7 +35,7 @@ https://www.dropbox.com/s/k6xcq55tqanbdmz/countries.txt?dl=0
 
 
 For loops and if conditions
-    . What are all of the countries that have “United” in the name?
+    . What are all of the countries that have “United” in the name? COMPLETED
     . What countries both begin and end with a vowel?
     . What country names are > 50% vowels?
 
