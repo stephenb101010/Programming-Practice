@@ -1,10 +1,11 @@
 with open("sowpods.txt") as file:
     words = []
-    final_list = []
+    vowels = "AEIOU"
     for line in file:
-        line = line.replace("\n", "")
-        if (line.find("A") != -1) and (line.find("E") != -1) and (line.find("I") != -1) and (line.find("O") != -1) and (line.find("U") != -1):
-            words.append(line)
+        line.strip("\n")
+        for letter in vowels:
+            if line.count(letter) != 1:
+                words.append(line)
     #Check to make sure each vowel only appears once
     for word in words:
         if (word.index("A") < word.index("E")) and (word.count("A") == 1) and (word.count("E") == 1):
