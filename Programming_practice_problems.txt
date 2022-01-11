@@ -37,14 +37,15 @@ https://www.dropbox.com/s/k6xcq55tqanbdmz/countries.txt?dl=0
 For loops and if conditions
     . What are all of the countries that have “United” in the name? COMPLETED
     . What countries both begin and end with a vowel? COMPLETED
-    . What country names are > 50% vowels? 
+    . What country names are > 50% vowels? COMPLETED
 
 
 Setting up storage to use during a for loop, including counters and arrays
-    . What is the shortest country name? Make sure your solution can handle ties.
+    . What is the shortest country name? Make sure your solution can handle ties. 
     . What countries use only one vowel in their name (the vowel can be used multiple times)
         ◦ For example, if the word “BEEKEEPER” were a country, it would be an answer, because it only uses “E”.
     . There is at least one country name that contains another country name. Find all of these cases.
+
 Baby names
 A file containing the top 40 baby names for boys in 2020:
 https://www.dropbox.com/s/drpcy1yrsq4uadk/baby_names_2020_short.txt?dl=0
