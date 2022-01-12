@@ -10,7 +10,6 @@ def get_years(team: str):
             finals_details[parts[0]] = parts[1]               
     for entry in finals_details:
         if finals_details[entry] == team: 
-            #This is not working. If I use "Miami Heat" instead of team, it works. Says team is the string parameter.
             champ_years.append(entry)
     return champ_years
 
