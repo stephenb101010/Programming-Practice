@@ -14,7 +14,7 @@ For loops and if conditions
     . What are all of the words that start and end with a Y? COMPLETED
     . What are all of the words with no vowel and not even a Y? COMPLETED
     . What are all of the words that have all 5 vowels, in any order? COMPLETED
-    . What are all of the words that have all 5 vowels, in alphabetical order? WIP
+    . What are all of the words that have all 5 vowels, in alphabetical order? COMPLETED
 
 
 Setting up storage to use during a for loop, including counters and arrays
