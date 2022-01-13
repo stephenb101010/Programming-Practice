@@ -1,3 +1,4 @@
+#What is the longest palindrome?
 with open("sowpods.txt") as file:
     longest = ""
     for line in file:

@@ -1,3 +1,4 @@
+#What are all of the words with no vowel and not even a Y?
 with open("sowpods.txt") as file:
     words = []
     for line in file:

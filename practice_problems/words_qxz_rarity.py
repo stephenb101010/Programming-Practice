@@ -1,3 +1,4 @@
+#Which of the letters Q, X, and Z is the least common?
 with open("sowpods.txt") as file:
     rarest = "is the rarest."
     q_total = 0

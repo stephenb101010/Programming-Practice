@@ -1,3 +1,4 @@
+#What are all of the words containing an X and a Y and a Z?
 words = []
 with open("sowpods.txt") as file:
     for line in file:
