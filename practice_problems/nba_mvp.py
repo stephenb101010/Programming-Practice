@@ -7,9 +7,17 @@ with open("nba_finals.csv") as file:
             continue
         if (parts[4] != ''):
             mvp_list.append(parts[4])
-    multi_mvp = {}
-    name_list = []
-    for mvp in mvp_list:
-        if mvp_list.count(mvp) > 1:
-            multi_mvp[mvp_list.count(mvp)] = [name_list.append(mvp)] #Not adding names. Why?
-print(multi_mvp)
+    times_won = []
+    total = set()
+    for name in mvp_list:
+        if mvp_list.count(name) > 1:
+            times_won.append(name)
+            total.add(mvp_list.count(name))
+    tot_list =  list(total)
+    tot_list.sort(reverse= True)
+    for num in tot_list:
+        names = set()
+        for name in mvp_list:
+            if num == mvp_list.count(name):
+                names.add(name)
+        print(f"{num} times: {names}")
