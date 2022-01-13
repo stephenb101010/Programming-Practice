@@ -103,7 +103,7 @@ https://www.dropbox.com/s/v56vasmua65qjgy/billboard100_2000.csv?dl=0
     . "Independent Women Part I" - Destiny's Child COMPLETED
 …
     . What song was the #1 song for the most weeks of 2000, who was the artist, and how many weeks was it at #1? COMPLETED
-    . What artist had the most songs chart in 2000, and what were those songs?
+    . What artist had the most songs chart in 2000, and what were those songs? 
     . What song(s) were on the charts (anywhere on the charts) for the most weeks of 2000?
 
 
