@@ -1,3 +1,4 @@
+#How many words contain the substring "TYPE”?
 with open("sowpods.txt") as file:
     total = 0
     for line in file:

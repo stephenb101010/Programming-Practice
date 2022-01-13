@@ -1,3 +1,4 @@
+#What are all of the words that have all 5 vowels, in alphabetical order?
 with open("sowpods.txt") as file:
     words = []
     for line in file:
