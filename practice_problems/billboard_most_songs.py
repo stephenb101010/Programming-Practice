@@ -13,4 +13,3 @@ with open("billboard100_2000.csv") as file:
         if artists.count(artist) >= number_songs:
             number_songs = artists.count(artist)
             performer = artist
-    print(performer)
